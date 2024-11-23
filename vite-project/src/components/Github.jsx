@@ -22,6 +22,7 @@ function Github() {
 
 export default Github
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const githubInfo=async()=>{
     const response=await fetch('https://api.github.com/users/Subodhini0906')
     return response.json()
